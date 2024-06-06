@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { kanit } from "@/app/ui/fonts"
+import { kanit, montserrat } from "@/app/ui/fonts"
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={kanit.className}>{children}</body>
+      <body className={`${montserrat.className} antialiased`}>{children}</body>
     </html>
   );
 }
