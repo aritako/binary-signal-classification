@@ -12,4 +12,5 @@ The final models produced from the project are uploaded on the authors' Github r
 - final_mlp.h5
 - final_cnn.h5
 - final_rnn.h5
+
 For the purpose of running the separate notebook for application, these files do not need to be downloaded.
